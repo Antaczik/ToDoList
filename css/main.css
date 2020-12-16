@@ -84,7 +84,7 @@ body {
 
 .todoButton:hover {
     color: white;
-    background-color: tomato;
+    background-color:  tomato;
 }
 
 input[type=checkbox] {
@@ -99,4 +99,8 @@ input[type=checkbox] {
 .todoLabel {
     font-size: 32px;
     color: gray;
+}
+
+.todoLabelCrossed {
+    text-decoration: line-through;
 }
